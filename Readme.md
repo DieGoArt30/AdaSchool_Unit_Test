@@ -2,21 +2,20 @@
 
 Reto tomado de [wix/tdd-katas](https://github.com/wix/tdd-katas#readme)
 
-
 ## Greeter
 
-#### Before you start:
-* **Try not to read ahead.**
-* **Do one task at a time. The trick is to learn to work incrementally.**
+#### Antes de comenzar:
+* **Trata de no leer más allá.**
+* **Realiza una tarea a la vez. El truco está en aprender a trabajar incrementalmente.**
 
-This kata demonstrates the problems of static scoped functions and objects.
+Esta kata demuestra los problemas de las funciones y objetos con alcance estático.
 
-All tests should always pass, regardless of environment conditions.
+Todos los tests siempre deben pasar, independientemente de las condiciones del entorno.
 
-1. Write a `Greeter` class with `greet` function that receives a `name` as input and outputs `Hello <name>`. The signature of `greet` should not change throughout the kata. You are allowed to construct `Greeter` object as you please.
-2. `greet` trims the input
-3. `greet` capitalizes the first letter of the name
-4. `greet` returns `Good morning <name>` when the time is 06:00-12:00
-5. `greet` returns `Good evening <name>` when the time is 18:00-22:00
-6. `greet` returns `Good night <name>` when the time is 22:00-06:00
-7. `greet` logs into console each time it is called
+1. Escribe una clase `Greeter` con una función `greet` que recibe un `nombre` como entrada y muestra `Hola <nombre>`. La firma de `greet` no debe cambiar a lo largo de la kata. Se te permite construir el objeto `Greeter` como prefieras.
+2. `greet` elimina los espacios en blanco alrededor del nombre.
+3. `greet` capitaliza la primera letra del nombre.
+4. `greet` devuelve `Buenos días <nombre>` cuando la hora es de 06:00 a 12:00.
+5. `greet` devuelve `Buenas tardes <nombre>` cuando la hora es de 18:00 a 22:00.
+6. `greet` devuelve `Buenas noches <nombre>` cuando la hora es de 22:00 a 06:00.
+7. `greet` registra en la consola cada vez que es llamado.
